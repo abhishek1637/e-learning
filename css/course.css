@@ -1,0 +1,39 @@
+*, html{
+  padding:0;
+  margin:0;
+}
+body{
+  background-color: #f4f9f9;
+}
+.first{
+  position: absolute;
+  top:65px;
+  margin:0 50px 0px 30px;
+  width:95%;
+  height:500px;
+  background-color: green;
+}
+
+.second{
+  position: relative;
+  top:510px;
+  height: 440px;
+  width:95%;
+  margin:30px 50px 0px 30px;
+}
+.container1{
+  position: absolute;
+  height:380px;
+  width:800px;
+margin: 20px 10px 10px 20px;
+background-color: #ccf2f4 ;
+}
+.container2{
+  position: absolute;
+  height:380px;
+  width:370px;
+  left: 880px;
+  margin-top: 20px;
+  background-color: #ccf2f4;
+
+}

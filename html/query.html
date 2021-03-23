@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>help up</title>
+	<link rel="stylesheet" type="text/css" href="../css/query.css">
+  <script type="text/javascript">
+    function goHOME(){
+      window.open("../html/faq.html","_self")
+    }
+  </script>
+</head>
+
+<body>
+  <div style="position:absolute;top:10px;left:10px;">
+  <input type="button" name="" id="mybtn" value="BACK" style="background-color:blue; border-radius:50%; height:30px;width:100px;" onclick="goHOME()">
+</div>
+    <div class="help-us">
+	        <h1>Connect With Us.</h1>
+			<h4>We would love to respond to your queries and help you suceed.<br>
+			Feel free to get in touch with us.</h4>
+	</div>
+	<div class="help-form">
+	     <form id="help-form" method="post" action="">
+		 <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+		 <br>
+		 <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+		 <br>
+		 <textarea name="message" class="form-control" placeholder="message" row="4" required></textarea><br>
+		 <input name="submit" type="submit" class="form-control submit" value="Send Messages">
+</body>
+</html>

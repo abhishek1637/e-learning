@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile settings</title>
+    <link rel="stylesheet" href="..\css\profile.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<div class="container">
+  <div class="leftbox">
+    <nav>
+      <a onclick="edit2()" class="tab active">
+        <i class="fa fa-user"></i>
+      </a>
+
+      <a href="../home/home.html" class="tab">
+        <i class="fa fa-home"></i>
+      </a>
+      <a onclick="edit()" class="tab">
+        <i class="fa fa-edit"></i>
+      </a>
+
+    </nav>
+  </div>
+  <div class="rightbox">
+
+    <div class="profile tabshow">
+      <h1>Personal Info</h1>
+      <h2>Full Name</h2>
+      <input type="text" class="input" id="name" placeholder="Abhishek Kumar" disabled>
+      <h2>Date of Birth</h2>
+      <input type="text" class="input" id="dob" placeholder="Oct 23,1998" disabled>
+      <h2>Gender</h2>
+      <input type="text" class="input" id="sex" placeholder="Male" disabled>
+      <h2>Email ID</h2>
+      <input type="email" class="input" id="mail" placeholder="abc@gmail.com" disabled>
+      <h2>Password</h2>
+      <input type="password" class="input" id="pswd" placeholder="fdsjjd" disabled>
+      <button type="button" class="btn" id="update" disabled>Update</button>
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+    <script>
+function edit(){
+  document.getElementById("update").disabled=false;
+  document.getElementById("name").disabled=false;
+  document.getElementById("dob").disabled=false;
+  document.getElementById("sex").disabled=false;
+  document.getElementById("pswd").disabled=false;
+  document.getElementById("mail").disabled=false;
+  document.getElementById("update").style.display="block";
+}
+
+function edit2(){
+  document.getElementById("update").disabled=true;
+  document.getElementById("name").disabled=true;
+  document.getElementById("dob").disabled=true;
+  document.getElementById("sex").disabled=true;
+  document.getElementById("pswd").disabled=true;
+  document.getElementById("mail").disabled=true;
+
+  document.getElementById("update").style.display="none";
+
+}
+    </script>
+  </body>
+</html>

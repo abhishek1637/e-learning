@@ -1,0 +1,42 @@
+.uppp2{
+  background-color: #8ac4d0;
+  padding-bottom: 50px;
+}
+.up21{
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.uppp2 .upper2 .up21 .u211{
+
+}
+.upper2{
+  display: flex;
+  margin-left: 20px;
+
+}
+
+.up22{
+  padding-left: 100px;
+  padding-top: 60px;
+  margin-left: 10px;
+}
+.up22 p{
+  font-weight: bold;
+  text-align: left;
+}
+.up22 h2{
+  text-align: center;
+}
+
+.lastsection{
+  background-color: #393e46;
+  text-align: center;
+  align-items: center;
+  color: white;
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 0;
+  line-height: normal;
+  padding-bottom: 15px;
+
+}

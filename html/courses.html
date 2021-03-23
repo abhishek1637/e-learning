@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Courses</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="..\css\courselist.css">
+  <link rel="stylesheet" href="..\css\style.css">
+   <link rel="stylesheet" href="..\css\home.css">
+
+  <style media="screen">
+    .cimg{
+      height: 490px;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      opacity: 0.9;
+    }
+a:link{
+  text-decoration:none;
+  outline:none;
+}
+a:hover{
+  color:red;
+}
+  </style>
+
+</head>
+
+<body>
+  <!--upper1-->
+
+ <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+   <a class="navbar-brand" href="#"> 🎓Academy</a>
+   <ul class="navbar-nav ml-auto px-5">
+     <li class="nav-item px-3">
+       <a class="nav-link" href="../home/home.html">HOME</a>
+     </li>
+
+     <li class="nav-item px-3">
+       <a class="nav-link" href="../html/courses.html">COURSES</a>
+     </li>
+
+     <li class="nav-item px-3">
+       <a class="nav-link" href="../feedback/feed.html">FEEDBACK</a>
+     </li>
+
+     <li class="nav-item px-3">
+       <a class="nav-link" href="../About/about.html">ABOUT US</a>
+     </li>
+     <li class="nav-item px-3">
+       <a class="nav-link wish" href="#"> 🤍 </a>
+       <p class="w" >Wishlist</p>
+     </li>
+    <!-- <li class="nav-item px-3">
+       <a class="nav-link cart" href="#"> 🛒 </a>
+     </li>
+     <li class="nav-item px-3">
+       <a class="nav-link notify" href="#">🕭 </a>
+     </li> -->
+     <li class="nav-item px-3">
+
+
+       <a class="nav-link" href="#">
+         <form class="f1"  method="post">
+           <img src="../home/user.png" alt="user" height="22px" width="20px">
+           <select id="combo" onchange="drop(this)">
+             <option value="Your Profile"> User </option>
+             <option value="profile"> Profile</option>
+
+             <option value="mycourses">My Courses </option>
+          <!--   <option value="Mycart">My cart </option>-->
+          <!-- <option value="wishlist">Wishlist </option> -->
+          <!--     <option value="purchases">Purchases</option>-->
+             <option value="settings">Settings</option>
+             <option value="help">Help center </option>
+             <option value="out">Sign out</option>
+          <!--   <option value="payment options"> Payment options </option>-->
+
+           </select>
+         </form>
+
+         </a>
+     </li>
+   </ul>
+ </nav>
+
+
+  <div class="contain1">
+    <img src="..\image\img2.jpg" alt="" class="cimg">
+    <div class="quote">
+      <h3>Learn Anything from Anywhere</h3>
+    </div>
+    <div class="search">
+
+      <form action="#">
+        <input type="text" placeholder=" What do you want to learn?" id="stext" name="search">
+        <button type="submit" class="searchButton" onclick="search()">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+    <div style="position:absolute;top:250px;left:520px;">
+      <p style="color:white;">Search the courses you want to learn</p>
+    </div>
+
+  </div>
+<div class="contain2">
+  <h1 style="margin:20px 0 10px 30px;overflow:hidden;">  IT Courses  </h1>
+  <div style="display:inline-block;position:absolute; top:75px; left:60px;overflow:hidden;">
+    <a href="#"> <img src="..\image\c.jpg" alt="" class="img1"></a>
+    <p id="c"><a href="../html/c.html">C for Begineer</a></p>
+
+
+
+
+  </div>
+  <div style="display:inline-block;position:absolute; top:75px; left:280px;">
+    <a href="../html/c.html"> <img src="..\image\c++.png" alt="" class="img1"></a>
+   <p>&nbsp &nbsp &nbsp&nbsp <a href="#"> Learn C++ from scratch</a></p>
+  </div>
+  <div style="display:inline-block;position:absolute; top:75px; left:570px; border-radius:1%;">
+    <a href="../html/c.html"> <img src="..\image\python.png" alt="" class="img1">
+    <p>&nbsp &nbsp &nbsp&nbsp Be a python developer</p> </a>
+  </div>
+
+  <div style="display:inline-block;position:absolute; top:75px; left:880px;">
+    <a href="../html/c.html"> <img src="..\image\java.png" alt="" class="img1">
+    <p>&nbsp &nbsp &nbsp&nbsp Learn Core Java</p></a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:75px; left:1150px;">
+    <a href="../html/c.html"> <img src="..\image\html.png" alt="" class="img1">
+    <p>Start your journey for web dev</p></a>
+  </div>
+</div>
+<div class="contain3">
+  <h1 style="margin:20px 0 10px 30px;overflow:hidden;">  Management Courses </h1>
+  <div style="display:inline-block;position:absolute; top:90px; left:60px;">
+    <a href="../html/c.html"> <img src="..\image\accountancy.jpg" alt="" class="img1">
+    <p> Be an accountant </p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:350px;">
+    <a href="../html/c.html"> <img src="..\image\financial.jpg" alt="" class="img1">
+    <p> &nbsp &nbsp Finance Management</p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:720px; border-radius:1%;">
+    <a href="../html/c.html"> <img src="..\image\hrm.jpg" alt="" class="img1">
+    <p>HR Management</p> </a>
+  </div>
+
+  <div style="display:inline-block;position:absolute; top:90px; left:1000px;">
+    <a href="../html/c.html"> <img src="..\image\Marketing.jpg" alt="" class="img1">
+    <p>Marketing Management</p></a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:320px; left:60px;">
+    <a href="../html/c.html"> <img src="..\image\operation.jpg" alt="" class="img1">
+    <p>Operations Management</p></a>
+  </div>
+</div>
+
+<!--Business course-->
+<div class="contain3">
+  <h1 style="margin:20px 0 10px 30px;overflow:hidden;">  Popular in Business</h1>
+  <div style="display:inline-block;position:absolute; top:90px; left:60px;">
+    <a href="../html/c.html"> <img src="business/b_analysis.jpg" alt="" class="img1">
+  <p>  <b>&nbsp &nbsp  Buiness Analysis</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:380px;">
+    <a href="../html/c.html"> <img src="business/b_mgt.jpg" alt="" class="img1">
+  <p>  <b>  Business management</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:680px;">
+    <a href="../html/c.html"> <img src="business/digital_marketing.jpg" alt="" class="img1">
+  <p>  <b>&nbsp Digital marketing</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:1000px;">
+    <a href="../html/c.html"> <img src="business/net_marketing.jpg" alt="" class="img1">
+  <p>  <b>&nbsp Internet marketing</b></p> </a>
+  </div>
+
+  <div style="display:inline-block;position:absolute; top:320px; left:60px;">
+    <a href="../html/c.html"> <img src="business/excel_for_b_analysis.jpg" alt="" class="img1">
+  <p>  <b>Excel for Business Anal.</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:320px; left:380px;">
+    <a href="../html/c.html"> <img src="business/b_writing.jpg" alt="" class="img1">
+  <p>  <b>  Learn Business Writting</b></p> </a>
+  </div>
+
+</div>
+<!--Popular in skills-->
+
+<div class="contain3">
+  <h1 style="margin:20px 0 10px 30px;overflow:hidden;">  Popular in Skills</h1>
+  <div style="display:inline-block;position:absolute; top:90px; left:60px;">
+    <a href="../html/c.html"> <img src="skills/basic_foundation.jpg" alt="" class="img1">
+  <p>  <b>Painting Foundation</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:380px;">
+    <a href="../html/c.html"> <img src="skills/painting.jpg" alt="" class="img1">
+  <p>  <b>&nbsp &nbsp Art Foundation</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:680px;">
+    <a href="../html/c.html"> <img src="skills/most_known_dishes.jpg" alt="" class="img1">
+  <p>  <b>Basic Popular Recipies</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:1000px;">
+    <a href="../html/c.html"> <img src="skills/zero_to_mastery.jpg" alt="" class="img1">
+  <p>  <b>Learn Art Zero to Mastery</b></p> </a>
+  </div>
+
+  <div style="display:inline-block;position:absolute; top:320px; left:60px;">
+    <a href="../html/c.html"> <img src="skills/zerotom.jpg" alt="" class="img1">
+  <p>  <b>Learn Cooking</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:320px; left:380px;">
+    <a href="../html/c.html"> <img src="skills/basic_foundation.jpg" alt="" class="img1">
+  <p>  <b>  Learn Business Writting</b></p> </a>
+  </div>
+
+</div>
+
+<!--Recommendations-->
+<div class="contain3">
+  <h1 style="margin:20px 0 10px 30px;overflow:hidden;">  Recommendations for you</h1>
+  <div style="display:inline-block;position:absolute; top:90px; left:60px;">
+    <a href="../html/c.html"> <img src="img/c.jpg" alt="" class="img1">
+  <p>  <b>&nbsp &nbsp C language</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:380px;">
+    <a href="../html/c.html"> <img src="..\image\html.png" alt="" class="img1">
+  <p>  <b>WEB Development</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:680px;">
+    <a href="../html/c.html"> <img src="business/b_mgt.jpg" alt="" class="img1">
+  <p>  <b>Business management</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:90px; left:1000px;">
+    <a href="../html/c.html"> <img src="business/digital_marketing.jpg" alt="" class="img1">
+  <p>  <b>Digital marketing</b></p> </a>
+  </div>
+
+  <div style="display:inline-block;position:absolute; top:320px; left:60px;">
+    <a href="../html/c.html"> <img src="skills/most_known_dishes.jpg" alt="" class="img1">
+  <p>  <b>Basic Popular Recipies</b></p> </a>
+  </div>
+  <div style="display:inline-block;position:absolute; top:320px; left:380px;">
+    <a href="../html/c.html"> <img src="skills/zero_to_mastery.jpg" alt="" class="img1">
+  <p>  <b> Learn Art Zero to Mastery </b></p> </a>
+  </div>
+
+</div>
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="program">
+<div class="inner_pro">
+<h2 style="overflow:hidden;">Our Programs</h2>
+<p>We aim to make studying SIMPLE, EASY and ACCESSIBLE to EVERYONE thus
+  we collected the BEST COURSES in the world in one place.
+</p>
+</div>
+<div class="inner_pro2">
+  <img src="..\image\program1.svg" alt="program"></div>
+  <div class="para_cont">
+    <p style="float:right;">We are excellent in education</p>
+  <p style="float:right; font-size:16px;font-weight:5px; color:#777;">  Education is an art and we are the artists. </p>
+  <p style="float:left; font-size:17px;font-weight:5px; color:#7868e6;">  🎓 we provide latest IT courses </p>
+  <p style="float:left; font-size:17px;font-weight:5px; color:#7868e6;">  💻 C/C++ JAVA Python and many more </p>
+  </div>
+
+  <div class="inner_pro3">
+    <img src="..\image\management.svg" alt="program2"></div>
+    <div class="para_cont2">
+      <p style="float:left;">Strive for excellent</p>
+    <p style="float:left; font-size:16px;font-weight:5px; color:#777;">  Our goal is your success </p>
+    <p style="float:left; font-size:17px;font-weight:5px; color:#7868e6;">  🎓  Latest Management courses </p>
+    <p style="float:left; font-size:17px;font-weight:5px; color:#7868e6;">  💸 Finance Marketing and many more </p>
+    </div>
+
+
+
+    <div class="inner_pro4">
+      <img src="..\image\program1.svg" alt="program"></div>
+      <div class="para_cont3">
+        <p style="float:left;">Education is life</p>
+      <p style="float:left; font-size:16px;font-weight:5px; color:#777;">  Beginning of a never ending journey of learning. </p>
+      <p style="float:left; font-size:17px;font-weight:5px; color:#7868e6;">  🎓 Arts Science Commerce related papers </p>
+      <p style="float:left; font-size:17px;font-weight:5px; color:#7868e6;">  🎨 a perfect site for learners </p>
+      </div>
+</div>-->
+<!-- carousel teacher-->
+<!--Footer start here-->
+<div class="lastsection">
+  <p> ©️ All rights reserved. <br>
+Follow us on various social media platforms</p>
+<div class="lastimages">
+  <img src=" ..\home\twitter.png" alt="twitter" height="30px" width="30px">
+  <img src="..\home\utube.png" alt="youtube" height="30px" width="30px">
+  <img src="..\home\instagram.jfif" alt="instagram" height="30px" width="30px">
+  <img src="..\home\fb.png" alt="facebook" height="30px" width="30px">
+</div>
+
+</div>
+<!--footer end here-->
+<script type="text/javascript">
+function drop(selectObject) {
+var value = selectObject.value;
+if(value=="profile"){
+  window.open("../html/profile.html","_self");
+}
+else if (value=="mycourses") {
+  window.open("../html/courses.html","_self");
+}
+else if (value=="settings") {
+  window.open("../html/profile.html","_self");
+}
+else if(value=="out"){
+  alert("you are logging out")
+  window.open("../html/index.html","_self");
+}
+else if(value=="help"){
+  window.open("../html/faq.html","_self");
+}
+
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+body{
+  overflow-x: hidden;
+}
+                               /* upper 2*/
+
+.upper2{
+  background-image: url(About_us.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+                                /*upper 3*/
+
+.upper3 .up31{
+  display: flex;
+  margin: 15px;
+  width: 100%;
+
+}
+
+.upper3 .up31 .u2{
+  margin-left: 20px;
+  padding-bottom: 2px;
+  padding-top: 4px;
+  line-height: normal;
+
+}
+.upper3 .upper32{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.upper3 .up32{
+  display: flex;
+  margin: 15px;
+
+}
+.upper3 .up33{
+  display: flex;
+  left: 30px;
+  margin: 15px;
+}
+.u2 {
+  margin-left: 20px;
+  text-align: center;
+}
+
+/*last section*/
+
+.lastsection{
+  background-color: #393e46;
+  text-align: center;
+  align-items: center;
+  color: white;
+  height: 120px;
+  padding: 20px 20px 10px 20px;
+margin-top: 50px;
+
+}
+.lastimages{
+  margin-left: 10px;
+  margin-right: 10px;
+}

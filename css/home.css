@@ -1,0 +1,122 @@
+/* upper1*/
+
+.navbar .nav-link .f1 select{
+  background-color:#393e46 ;
+  border: none;
+  font-weight: bolder;
+  color:white;
+}
+
+.navbar .nav-item .w{
+  color: white;
+ display: none;
+}
+.navbar .nav-item:hover .w{
+
+  display:block;
+}
+
+
+
+                        /*upper2*/
+
+.upper2{
+  background-image: url(home.jpg);
+  height: 400px;
+  width: 1300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.u1{
+position: absolute;
+margin-left: 30px;
+background-color: #dddddd;
+margin-top: 30px;
+padding: 10px 10px 10px 10px;
+}
+
+                   /*upper 3*/
+h3{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.u32{
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 10px 10px 10px 10px;
+}
+ .u31{
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+}
+  .u31 .g {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  max-width: 15vw;
+  padding: 10px
+}
+
+
+.u3{
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+}
+.u32 .g {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+overflow-wrap: break-word;
+max-width: 15vw;
+padding: 10px
+}
+
+/*second last*/
+
+
+.teacher{
+  position: relative;
+  height:280px;
+  width=100%;
+  text-align: center;
+  color:#777;
+  padding: 0px 10px 0px 10px;
+  background-color:#f4f9f9;
+    margin: 10px 30px 5px 30px;
+}
+.teach{
+  width:200px;
+  height: 150px;
+  float:left;
+  margin: 0px 10px 0px 0px;
+  border-radius: 100%;
+}
+.teach2{
+  width:200px;
+  height: 150px;
+  float:right;
+  margin: 0px 0px 0px 10px;
+  border-radius: 100%;
+}
+                           /*last section*/
+
+.lastsection{
+  background-color: #393e46;
+  text-align: center;
+  align-items: center;
+  color: white;
+  height: 150px;
+  padding: 20px 20px 20px 20px;
+
+
+}
+.lastimages{
+  margin-left: 10px;
+  margin-right: 10px;
+}

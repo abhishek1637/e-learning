@@ -1,0 +1,58 @@
+body{
+    margin:0;
+	padding:0;
+	text-align:center;
+
+    background: #777;
+    overflow-x: hidden;
+
+	background-position:center;
+	font-family: sans-serif;
+}
+.help-us
+{
+	 margin-top:100px;
+	 color:pink;
+	 text-transform:uppercase;
+}
+.help-us h1{
+	font-size:32px;
+	line-height:10px
+}
+.help-us h3{
+	font-size:16px;
+}
+form
+{
+	 margin-top:50px;
+}
+.form-control
+{
+	width:600px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid red;
+	text-shadow:1px 1px 1px white;
+	font-size:25px;
+	margin-bottom:16px;
+}
+input{
+	height:50px;
+}
+form .submit
+{
+	background:#d3c0f9;
+	border-color:transparent;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+}
+form .submit:hover
+{
+	background-color:pink;
+	cursor:pointer;
+}
